@@ -1,0 +1,27 @@
+<html><p/>This is the readme for the model associated with the paper:
+<p/>
+Salimi-Badr A, Ebadzadeh MM, Darlot C (2017) A possible correlation
+between the basal ganglia motor function and the inverse kinematics
+calculation. <a href="https://doi.org/10.1007/s10827-017-0665-5">J Comput Neurosci</a>
+<p/>
+This model was contributed by A Salimi-Badr.
+<p/>
+It is a model of solving inverse kinematics (IK) based on Basal Ganglia (BG)
+<p/>It was originally simulated in Matlab 2014 and has been found to also work in Matlab 2017b.
+<p/><ol>To run the simulation:
+	<li>- Run parameters.m
+	</li><li>- Run BG.slx (after typing BG on the matlab command line once the below window loads select Simulation -> Run from the simulink menus:
+	<img src="./screenshot1.png" alt="screenshot1" width="550">
+	</li><li>After running you will see a graph like the below and files will be written to the top level folder:<p/>
+	<img src="./screenshot2.png" alt="screenshot2" width="550">
+	</li><li>- After simulation, to see the movement run animation.m
+</li></ol>
+<p/>
+<ol>To simulate the Parkinsonian condition:
+	<li>- set g = 0.1 in parameters.m
+	</li><li>- set tau = 0.050 in parameters.m
+</ol><p/>
+<ol>To show the circular movement:
+	<li>- Replace Reaching block with Circular block
+</li></ol>
+</html>
